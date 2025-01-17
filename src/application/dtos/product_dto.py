@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
 from src.domain.entities.product import Product
+# from ...domain.entities.product import Product
 
 @dataclass
 class CreateProductDTO:

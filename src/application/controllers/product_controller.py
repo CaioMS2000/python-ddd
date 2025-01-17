@@ -1,6 +1,6 @@
 from typing import Dict, Any
 
-from src.application.dtos.product_dto import CreateProductDTO, ProductResponseDTO
+from ..dtos.product_dto import CreateProductDTO, ProductResponseDTO
 from ...domain.services.product_service import ProductService
 from ...core.result import Result
 from ...core.error.exceptions import ErrorType

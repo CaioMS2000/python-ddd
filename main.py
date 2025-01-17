@@ -1,7 +1,7 @@
-from application.controllers.product_controller import ProductController
-from application.dtos.product_dto import CreateProductDTO
-from domain.services.product_service import ProductService
-from infrastructure.repositories.memory_product_repository import MemoryProductRepository
+from src.application.controllers.product_controller import ProductController
+from src.application.dtos.product_dto import CreateProductDTO
+from src.domain.services.product_service import ProductService
+from src.infrastructure.repositories.memory_product_repository import MemoryProductRepository
 
 def main():
     # Configuração das dependências

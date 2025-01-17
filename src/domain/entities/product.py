@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional
 from datetime import datetime
-from ...core.error.exceptions import DomainError, ErrorType, DomainException
+from src.core.error.exceptions import DomainError, DomainException, ErrorType
 
 @dataclass
 class Product:
