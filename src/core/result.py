@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from typing import Generic, TypeVar, Union, Optional
+from typing import Generic, TypeVar, Optional
 from .error.exceptions import DomainError
 
 T = TypeVar('T')

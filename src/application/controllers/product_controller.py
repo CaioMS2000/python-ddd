@@ -2,8 +2,6 @@ from typing import Dict, Any
 
 from ..dtos.product_dto import CreateProductDTO, ProductResponseDTO
 from ...domain.services.product_service import ProductService
-from ...core.result import Result
-from ...core.error.exceptions import ErrorType
 
 class ProductController:
     def __init__(self, product_service: ProductService):
